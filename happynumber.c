@@ -7,7 +7,9 @@ void test(char * esperado, char * atual, char * mensagem) {
 	int resultado_comparacao = strcmp(esperado, atual);
 	if (resultado_comparacao == 0)
 	{
+		textcolor(GREEN);
 		printf("%s - TEST OK! !!!\n", mensagem);
+		textcolor(LIGHTGRAY);
 	} else 
 	{
 		textcolor(RED);

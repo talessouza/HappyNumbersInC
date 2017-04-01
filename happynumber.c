@@ -21,7 +21,7 @@ void test(char * esperado, char * atual, char * mensagem) {
 int main(int argc, char *argv[]) {
 	
 	test("feliz", "feliz", "test 1");
-	test("feliz", "triste", "test 4");
+	test("triste", "feliz", "test 4");
 	test("feliz", "feliz", "test 100");
 	
 	return 0;

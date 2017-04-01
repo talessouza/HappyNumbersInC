@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
 	test("feliz", "feliz", "test 1");
 	test("triste", "feliz", "test 4");
 	test("feliz", "feliz", "test 100");
+	test("feliz", "triste", "test 1000");
 	
 	return 0;
 }
